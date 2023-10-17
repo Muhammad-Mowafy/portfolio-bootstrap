@@ -1,0 +1,214 @@
+/* Start Variables */
+:root {
+    --main-color : #f57d38;
+    --blue-color : #26577c;
+    --white-color: #f8f0d9;
+    --gray-color : rgb(63, 63, 63);
+}
+/* End Variables */
+
+/* Start Global Edits */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--blue-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--white-color);
+}
+/* End Global Edits */
+
+/* Start Header */
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(86, 86, 83, 0.89), rgba(63, 63, 61, 0.78)), url("../images/home.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .navbar {
+    border-bottom: 4px solid var(--main-color);
+}
+
+header .navbar .container .navbar-brand img{
+    height: 40px !important;
+}
+
+header .navbar .container .collapse .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+header .information {
+    padding-top: 64px;
+}
+
+header .information .row {
+    margin-top: 80px;
+}
+
+header .container .row .heading h1 span {
+    color: var(--white-color);
+}
+
+header .container .row .heading .social p i {
+    background-color: var(--main-color);
+    padding: 5px;
+    border-radius: 3px;
+    color: var(--white-color);
+    font-size: 25px;
+}
+
+header .container .login .card {
+    background-color: var(--main-color);
+}
+
+header .container .login .card button {
+    background-color: var(--blue-color);
+    color: #EBE4D1;
+}
+
+header .container .login .card button:hover {
+    background-color: #EBE4D1;
+    color: var(--blue-color);
+}
+/* End Header */
+
+/* Start Explore */
+.explore {
+    background-color: var(--blue-color);
+}
+
+.explore h2 {
+    color: var(--white-color);
+    font-size: 35px;
+}
+
+.explore p {
+    color: var(--white-color);
+    width: 70%;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+
+.explore button {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.explore button:hover {
+    background-color: var(--white-color);
+    color: var(--main-color);
+}
+/* End Explore */
+
+/* Start Connect */
+.connect {
+    background: linear-gradient(rgba(86, 86, 83, 0.89), rgba(63, 63, 61, 0.78)), url("../images/home.jpg") center fixed;
+    background-size: cover;
+}
+
+.connect h2 {
+    color: var(--white-color);
+}
+
+.connect p {
+    line-height: 1.7;
+    color: var(--white-color);
+}
+
+.connect .con-icon i {
+    background-color: var(--white-color);
+    padding: 5px;
+    border-radius: 3px;
+    color: var(--blue-color);
+    font-size: 25px;
+}
+
+.connect .con-icon p {
+    padding: 6px;
+}
+/* End Connect */
+
+/* Start Create */
+.create {
+    background-color: var(--blue-color);
+}
+
+.create h2 {
+    color: var(--white-color);
+    font-size: 35px;
+}
+
+.create p {
+    color: var(--white-color);
+    width: 70%;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+
+.create button {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.create button:hover {
+    background-color: var(--white-color);
+    color: var(--main-color);
+}
+/* End Create */
+
+/* Start Share */
+.share {
+    background: linear-gradient(rgba(86, 86, 83, 0.89), rgba(63, 63, 61, 0.78)), url("../images/home.jpg") center fixed;
+    background-size: cover;
+}
+
+.share h2 {
+    color: var(--white-color);
+}
+
+.share p {
+    line-height: 1.7;
+    color: var(--white-color);
+}
+
+.share .con-icon i {
+    background-color: var(--white-color);
+    padding: 5px;
+    border-radius: 3px;
+    color: var(--blue-color);
+    font-size: 25px;
+}
+
+.share .con-icon p {
+    padding: 6px;
+}
+/* End Share */
+
+/* Start Footer */
+footer {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+footer span {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 17px;
+}
+/* End Footer */
